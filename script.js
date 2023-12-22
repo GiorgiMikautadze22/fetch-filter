@@ -27,7 +27,7 @@ function fetchData(url) {
       });
     })
     .catch((err) => {
-      console.log(err.error);
+      console.log(err);
     });
 }
 
